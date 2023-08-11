@@ -1,0 +1,33 @@
+{
+    "orderDetails": "van two                     Van iPad 2\n",
+    "orderName": "",
+    "orderItems": [
+        {
+            "groupedItems": [
+                {
+                    "items": [
+                        {
+                            "product": "    1  Chicken Burger    \n",
+                            "note": "",
+                            "modifiers": ""
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "divider": "________________________________________________\n",
+    "dashDivider": "------------------------------------------------\n",
+    "title": "NEW ORDER\n",
+    "orderType": "TAKEAWAY   SP-36-11\n",
+    "timeStamp": "26-07-2023 01:13 PM\n",
+    "reasonOrNote": "",
+    "customerInfo": "",
+    "channel": "",
+    "printerProfile": "Kitchen\n",
+    "kitchenBuzzer": true,
+    "customerName": "\n",
+    "customerAddress": "\n",
+    "customerPhone": "\n",
+    "printMode": "REST"
+}

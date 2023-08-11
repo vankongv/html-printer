@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    {{#organization}}
+    <align mode="center">
+    <bold>
+        <text-line size="0:1">{{organization}}</text-line>
+    </bold>
+    </align>
+    {{/organization}}
+    {{#storeName}}
+    <align mode="center">
+    <bold>
+        <text-line size="0:0">{{storeName}}</text-line>
+    </bold>{{/storeName}}
+    </align>
+    <line-feed />
+    {{#storeNo}}
+    <align mode="center">
+        <text-line>{{businessIdentifier}}:{{storeNo}}</text-line>
+    </align>
+    {{/storeNo}}
+    <line-feed />
+    {{#storeAddress}}
+    <align mode="center">
+        <text-line>{{storeAddress}}</text-line>
+    </align>
+    {{/storeAddress}}
+    {{#storePhone}}
+    <align mode="center">
+        <text-line>
+            {{storePhone}}
+        </text-line>
+    </align>
+    {{/storePhone}}
+    <align mode="center">
+        <text-line size="0:0">{{{divider}}}</text-line>
+    </align>
+    <line-feed />
+    <align mode="center">
+        <text-line size="0:0">{{orderDetails}}</text-line>
+    </align>
+    <align mode="center">
+        <text-line size="0:0">{{{divider}}}</text-line>
+    </align>
+    <line-feed />
+    <align mode="center">
+        <text-line size="0:0">{{orderItems}}</text-line>
+    </align>
+    <line-feed />
+    <align mode="center">
+        <bold>
+            <text-line size="0:1">{{orderTotalDue}}</text-line>
+        </bold>
+    </align>
+    <align mode="center">
+        <text-line size="0:0">{{{divider}}}</text-line>
+    </align>
+    <line-feed />
+    {{#paymentDetails}}
+    <align mode="center">
+        <text-line>{{paymentDetails}}</text-line>
+    </align>
+    {{/paymentDetails}}
+    {{#currentNthPayment}}
+    <align mode="center">
+        <bold>
+            <text-line>{{currentNthPayment}}</text-line>
+        </bold>
+    </align>
+    {{/currentNthPayment}}
+    {{#totalOutstanding}}
+    <line-feed />
+    <align mode="center">
+        <bold>
+            <text-line>{{totalOutstanding}}</text-line>
+        </bold>
+    </align>
+    {{/totalOutstanding}}
+    {{#isPrintingPaymentReceipt}}
+    <align mode="center">
+        <text-line size="0:0">{{paymentReceiptDetails}}</text-line>
+        <bold>
+            <text-line size="0:0">{{adyenTotal}}</text-line>
+        </bold>
+    </align>
+    {{/isPrintingPaymentReceipt}}
+    {{#isPrintingQR}}
+    <align mode="center"> {{#qrCode}} <text-line size="0:0">{{{divider}}}</text-line>
+        <line-feed />
+        <bold>
+            <text-line size="0:0">{{qrText}}</text-line>
+        </bold>
+        <qrcode model="2" size="5"
+            ecl="L">{{qrCode}}</qrcode> {{/qrCode}} 
+    </align>
+    {{/isPrintingQR}}
+    {{#customerName}}
+    <align mode="center">
+        <text-line size="0:0">{{{divider}}}</text-line>
+    </align>
+    <line-feed />
+    <align mode="center">
+        <small>
+            <text-line>Customer</text-line>
+        </small>
+        <text-line size="0:1">
+            {{customerName}}
+        </text-line> 
+            {{#customerPhone}} 
+        <text-line size="0:0">
+            {{customerPhone}}
+        </text-line> 
+            {{/customerPhone}} 
+        {{#customerAddress}} 
+        <text-line size="0:0">
+            {{customerAddress}}
+        </text-line> 
+        {{/customerAddress}} 
+    </align>
+    {{/customerName}}
+    <align mode="center">
+        <text-line size="0:0">{{{divider}}}</text-line>
+    </align>
+    <line-feed />
+    {{#loyaltySnapshot}}
+    <align mode="center"> {{#loyalty}} <bold>
+            <text-line size="0:0">{{loyaltyHeader}}</text-line>
+        </bold>
+        <text-line>{{loyalty}}</text-line>
+        <line-feed />
+        {{/loyalty}} {{#redeemedRewards}} <bold>
+            <text-line size="0:0">{{redeemedRewardsHeader}}</text-line>
+        </bold>
+        <text-line>
+        {{redeemedRewards}}
+        </text-line>
+        <line-feed /> {{/redeemedRewards}}
+        {{#availableRewards}} <bold>
+            <text-line size="0:0">{{availableRewardsHeader}}</text-line>
+        </bold>
+        <text-line>
+        {{availableRewards}}
+        </text-line>
+        <line-feed /> {{/availableRewards}} <align
+            mode="center">
+            <text-line size="0:0">{{{divider}}}</text-line>
+        </align>
+        <line-feed />
+    </align>
+    {{/loyaltySnapshot}}
+    <align mode="center">
+        <line-feed />
+        <bold>
+            <text-line size="1:0">Tax Invoice/Receipt</text-line>
+        </bold>
+    </align>
+    <paper-cut />
+</document>

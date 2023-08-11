@@ -1,0 +1,15 @@
+{
+  "name": "htmlPrinter",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@tillpos/xml-escpos-helper": "^0.2.7",
+    "node-fetch": "^3.3.2"
+  },
+  "scripts": {
+  },
+  "devDependencies": {
+    "@types/node": "^20.4.9"
+  }
+}

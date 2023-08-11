@@ -1,0 +1,72 @@
+export const billFilledExample = `<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <align mode="center">
+    </align>
+    <bold>
+        <text-line size="0:1">Van Test Plus 2</text-line>
+    </bold> <align
+        mode="center">
+        <align mode="center"> <bold>
+                <text-line size="0:0">Van Test Plus 2 Store</text-line>
+            </bold> <line-feed />
+    <text-line>ABN:88888888888</text-line> <line-feed />
+    <text-line>   999 best st,Best, Victoria 8654</text-line>  <text-line>
+    +61 666666999</text-line> </align>
+      <under-line mode="two-point"></under-line>
+     <align mode="center">
+            <text-line size="0:0">__________________________________________</text-line>
+        </align>
+      <line-feed />
+      <align mode="center">
+            <text-line size="0:0">SP-36-21-20230727        27.07.23 03:32 PMTakeaway                          In Storevan two                               Paid</text-line>
+        </align>
+      <align mode="center">
+            <text-line size="0:0">__________________________________________</text-line>
+        </align>
+      <line-feed />
+      <align mode="center">
+            <bold>
+                <text-line size="0:0">                                      </text-line>
+            </bold>
+        </align>
+        <line-feed />
+        <align mode="center">
+            <text-line size="0:0">1     Chicken Burger                9.00                                                Sub Total                     9.00       GST                           0.82 </text-line>
+        </align>
+        <line-feed />
+        <align
+            mode="center">
+            <bold>
+                <text-line size="0:1">      Total                         9.00 </text-line>
+            </bold>
+
+        </align>
+     <align mode="center">
+            <text-line size="0:0">__________________________________________</text-line>
+        </align>
+        <line-feed />
+     <align mode="center">
+            <text-line>Cash                                9.00 </text-line>
+        </align>
+    
+      <align mode="center">   <text-line
+                size="0:0">__________________________________________</text-line>
+            <line-feed />
+            <bold>
+                <text-line size="0:0">View Receipt</text-line>
+            </bold>
+          <qrcode model="2"
+                size="5" ecl="L">https:&#x2F;&#x2F;staging-tillx-online-store.vercel.app&#x2F;r&#x2F;83a4003a-1773-4e42-a898-ca1f814bc869</qrcode>   </align>
+     <align mode="center">
+            <text-line size="0:0">__________________________________________</text-line>
+        </align>
+    </align>
+    <line-feed />
+     <align mode="center">
+        <line-feed />
+        <bold>
+            <text-line size="1:0">Tax Invoice/Receipt</text-line>
+        </bold>
+    </align>
+    <paper-cut />
+</document>`;

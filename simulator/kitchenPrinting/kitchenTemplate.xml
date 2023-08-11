@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <print-mode mode= {{printMode}} />
+  <align mode="center">
+        <text-line size="0:1">{{title}}</text-line> {{#printerProfile}} <text-line size="1:1">
+    {{printerProfile}}</text-line> {{/printerProfile}} <text-line size="0:0">{{timeStamp}}</text-line>
+    </align>
+  <align
+        mode="center">
+        <text-line size="0:0">{{{divider}}}</text-line>
+        <line-feed />
+    </align> {{#channel}} <align mode="center">
+        <text-line size="0:1">{{channel}}</text-line>
+        <text-line size="0:0">{{{divider}}}</text-line>
+        <line-feed />
+    </align> {{/channel}} <align mode="center">
+        <bold>
+            <text-line size="1:1">{{orderType}}</text-line>
+        </bold>
+    </align>
+    {{#orderName}} <align mode="center">
+        <text-line size="0:0">{{{divider}}}</text-line>
+        <text-line size="1:1">{{orderName}}</text-line>
+        <text-line size="0:0">{{{divider}}}</text-line>
+    </align> {{/orderName}} <line-feed />
+  <align
+        mode="center">
+        <bold>
+            <text-line size="0:0">{{orderDetails}}</text-line>
+        </bold>
+    </align>
+  <align
+        mode="center">
+        <text-line>{{{divider}}}</text-line>
+    </align>
+  <align mode="center"> {{#reasonOrNote}} <line-feed />
+      <bold>
+            <text-line size="0:1">{{customerInfo}}</text-line>
+            <text-line size="0:1">{{reasonOrNote}}</text-line>
+            <align mode="center">
+                <text-line>{{{divider}}}</text-line>
+            </align>
+        </bold>
+    {{/reasonOrNote}} </align> {{#orderItems}} {{#header}} <align mode="center">
+        <bold>
+            <text-line size="0:0">{{header}}</text-line>
+        </bold>
+        <text-line size="0:0">{{dashDivider}}</text-line>
+    </align> {{/header}} {{#groupedItems}}
+    {{#seat}} <line-feed />
+          <align mode="center">
+        <text-line size="0:0">{{dashDivider}}</text-line>
+        <bold>
+            <text-line size="0:1">{{seat}}</text-line>
+        </bold>
+    </align> {{/seat}}
+    {{#items}} <line-feed />
+          <align mode="center">
+        <bold>
+            <text-line size="1:1">{{product}}</text-line>
+        </bold> {{#note}} <bold>
+            <text-line size="1:0">{{note}}</text-line>
+        </bold> {{/note}} {{#modifiers}} <bold>
+            <text-line size="0:1">{{modifiers}}</text-line>
+        </bold> {{/modifiers}} </align>
+    {{/items}} {{/groupedItems}} <align mode="center">
+        <text-line size="0:0">{{dashDivider}}</text-line>
+    </align> {{/orderItems}} <align
+        mode="center"> {{#customerName}} <text-line size="0:1">{{customerName}}</text-line>
+    {{/customerName}} {{#customerPhone}} <text-line size="0:1">{{customerPhone}}</text-line>
+    {{/customerPhone}} {{#customerAddress}} <text-line size="0:1">{{customerAddress}}</text-line>
+    {{/customerAddress}} </align>
+  <paper-cut /> {{#kitchenBuzzer}} <open-cash-drawer></open-cash-drawer>
+    {{/kitchenBuzzer}} </document>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+    <align mode="center">
+    <bold>
+        <text-line size="0:1">Van Test Plus 2
+        <text-line size="0:0">
+        <print-line-feed>
+    </bold>
+    <align mode="center">
+    <align mode="center">
+    <bold>
+        <text-line size="0:0">Van Test Plus 2 Store
+        <text-line size="0:0">
+        <print-line-feed>
+    </bold>
+    ABN:88888888888
+    <text-line size="0:0">
+    <print-line-feed>
+    999 best st,
+    Best, Victoria 8654
+    <text-line size="0:0">
+    <print-line-feed>+61 666666999
+    <text-line size="0:0">
+    <print-line-feed>
+    <left-align>
+    <align mode="center">
+    <text-line size="0:0">__________________________________________
+    <text-line size="0:0">
+    <print-line-feed>
+    <left-align>
+    <align mode="center">
+    <text-line size="0:0">SP-36-30-20230811 11.08.23 11:04 AM
+    Takeaway In Store
+    van two Paid
+    <text-line size="0:0">
+    <print-line-feed>
+    <left-align>
+    <align mode="center">
+    <text-line size="0:0">__________________________________________
+    <text-line size="0:0">
+    <print-line-feed>
+    <left-align>
+    <align mode="center">
+    <bold>
+        <text-line size="0:0">
+        <text-line size="0:0">
+        <print-line-feed>
+    </bold>
+    <align mode="center">
+    <text-line size="0:0">1 Chicken Burger 9.00
+
+    Sub Total 9.00
+    GST 0.82
+    <text-line size="0:0">
+    <print-line-feed>
+    <left-align>
+    <align mode="center">
+    <bold>
+        <text-line size="0:1">Total 9.00
+        <text-line size="0:0">
+        <print-line-feed>
+    </bold>
+    <left-align>
+    <align mode="center">
+    <text-line size="0:0">__________________________________________
+    <text-line size="0:0">
+    <print-line-feed>
+    <left-align>
+    <align mode="center">Cash 9.00
+    <text-line size="0:0">
+    <print-line-feed>
+    <left-align>
+    <align mode="center">
+    <text-line size="0:0">__________________________________________
+    <text-line size="0:0">
+    <print-line-feed>
+    <bold>
+        <text-line size="0:0">View Receipt
+        <text-line size="0:0">
+        <print-line-feed>
+    </bold>
+    <qr-code>
+    <left-align>
+    <align mode="center">
+    <text-line size="0:0">__________________________________________
+    <text-line size="0:0">
+    <print-line-feed>
+    <left-align>
+    <left-align>
+    <align mode="center">
+    <bold>
+        <text-line size="1:0">Tax Invoice/Receipt
+        <text-line size="0:0">
+        <print-line-feed>
+    </bold>
+    <left-align>
+    <paper-cut />
+
+</document>
