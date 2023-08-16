@@ -1,4 +1,5 @@
 import { stringBuffer } from "./escposPrinting/iteration3/stringBuffer";
+import { hexBuffer } from './escposPrinting/iteration3/stringBuffer';
 
 export const convertToHtml = (str: string) => {
   // Combine the strings and remove the "+" signs
@@ -18,5 +19,5 @@ export const convertToHtml = (str: string) => {
   return str;
 };
 
-const htmlResult = convertToHtml(stringBuffer);
+const htmlResult = convertToHtml(hexBuffer);
 console.log(htmlResult);
